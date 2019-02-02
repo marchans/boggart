@@ -4,16 +4,24 @@
 <meta charset="UTF-8">
 <title>Boggart</title>
 </head>
-
+<style type="text/css">
+table{
+margin:auto;
+    top: 10%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+</style>
 <body>
-<h1>Select your fear</h1>
+<h1 align="center">What is your biggest fear?</h1>
 <form name="form" method="post" action="SelectBoggart">
 
-<table width="100%">
+<table width="75%" >
 <tr>
-<td valign ="left"><img src="spider.jpg"><br /><input name = "type" type="Submit" value="Spider"></td>
-<td><p align="center" valign = "center"><img src="snake.jpg"><br /><input name = "type" type="Submit" value="Snake"> </td>
-<td align="right" valign ="center"><img src="office.jpg"><br /><input name = "type" type="Submit" value="Office"></td>
+<td valign ="left"><button type="Submit" name="type" value="Spider"><img src="spider.jpg" alt="SomeAlternateText"></button></td>
+<td><p align="center" valign = "center"><button type="Submit" name="type" value="Snake"><img src="snake.jpg" alt="SomeAlternateText"></button> </td>
+<td align="right" valign ="center"><button type="Submit" name="type" value="Office"><img src="office.jpg" alt="SomeAlternateText"></button></td>
 </tr>
 <tr>
 

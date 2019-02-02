@@ -3,22 +3,23 @@
 <html>
 <style type="text/css">
 div.format {
- position: absolute;
+position: relative;
     margin: auto;
-    top: 0;
+    top:50px;
     left: 0;
     right: 0;
     bottom: 0;
 }
 div.IceSpider {
  content:url('spiderIceScating.png');
+
 }
 div.Clown { 
  content:url('clown.jpg');
 }
 div.EvilClown {
  content:url('evilClown.png');
- top: 25%;
+ top:5%;
 }
 
 </style>
